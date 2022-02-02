@@ -68,3 +68,5 @@ write.table(tidyDataset, file = "tidyDataset.txt", row.names = FALSE)
 ## Call to read in tidy data set produced and validate steps
 validate <- read.table("tidyDataset.txt")
 View(validate)
+
+sessionInfo()
